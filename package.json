@@ -1,0 +1,10 @@
+{
+  "name": "api-product-management",
+  "version": "1.0.0",
+  "description": "learn api",
+  "main": "index.js",
+  "repository": "https://github.com/leviettien1808/api-product-management.git",
+  "author": "Tien Le Viet",
+  "license": "MIT",
+  "private": false
+}
