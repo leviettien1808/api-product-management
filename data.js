@@ -1,11 +1,21 @@
+const { v4: uuidv4 } = require('uuid');
+
 const data = [
   {
-    ID: '1',
-    Name: '',
-    Description: '',
-    Price: 0,
-    Status: 'active',
-    CreatedDate: new Date(),
+    id: uuidv4(),
+    name: '',
+    description: '',
+    price: 0,
+    status: 'active',
+    createdDate: new Date(),
+  },
+  {
+    id: uuidv4(),
+    name: '',
+    description: '',
+    price: 0,
+    status: 'inactive',
+    createdDate: new Date(),
   },
 ];
 
